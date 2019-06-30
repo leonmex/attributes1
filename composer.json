@@ -1,0 +1,17 @@
+{
+  "name": "leonmex/attributes1",
+  "description": "Include 1 attribute for test",
+  "require": {
+    "php": "~7.1.0",
+    "magento/product-community-edition": "~2.3.1"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PHPCuong\\ProductAttributes": ""
+    }
+  }
+}
