@@ -1,0 +1,7 @@
+etc/                app/code/PHPCuong/ProductAttributes/etc
+Model/              app/code/PHPCuong/ProductAttributes/Model
+Setup/              app/code/PHPCuong/ProductAttributes/Setup
+Test/               app/code/PHPCuong/ProductAttributes/Test
+composer.json       app/code/PHPCuong/ProductAttributes/composer.json
+registration.php    app/code/PHPCuong/ProductAttributes/registration.php
+README.md           app/code/PHPCuong/ProductAttributes/README.md
