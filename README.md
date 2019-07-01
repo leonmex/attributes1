@@ -1,4 +1,17 @@
-# magento2-attribute-product
-How to add a new product attribute and update an available product attribute by codes in Magento 2
-# See the video about this tutorial
-https://www.youtube.com/watch?v=oV7bKLsWIoU
+# Belvini project
+### This module is made for magento 2.x
+### module-default-attribute
+## Installation
+
+composer require OetkerDigital/belvini-magento2-module-default-attribute
+
+bin/magento module:enable Belvini_ProductAttributes
+
+bin/magento setup:upgrade
+
+php bin/magento setup:di:compile
+
+php bin/magento setup:static-content:deploy -f
+
+### Unit Test
+

@@ -1,6 +1,6 @@
 {
-  "name": "leonmex/attributes1",
-  "description": "Include 1 attribute for test",
+  "name": "belvini Product Attributes",
+  "description": "Include the default attributes for belvini 2",
   "require": {
     "php": "~7.1.0",
     "magento/product-community-edition": "~2.3.1"
@@ -11,7 +11,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "PHPCuong\\ProductAttributes\\": ""
+      "Belvini\\ProductAttributes\\": ""
     }
   }
 }
